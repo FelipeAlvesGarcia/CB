@@ -128,7 +128,6 @@ function Feedback () {
                 <div className="row mt-4 d-sm-flex justify-content-center d-none">
                     <nav className="col-11 col-md-9 col-lg-7 d-flex justify-content-around">
                         <a href="/" className="a"><p id="anavSec" className="hover1">Home</p></a>
-                        <a href="/RG" className="a"><p id="anavSec" className="hover1">Recycle Garbage</p></a>
                         <a href="/DF" className="a"><p id="anavSec" className="hover1">Divert Fish</p></a>
                         <a href="/lixos" className="a"><p id="anavSec" className="hover1">Lixos</p></a>
                         <a href="/clean-beach" className="a"><p id="anavSec" className="hover1">Clean Beach</p></a>

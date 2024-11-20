@@ -71,48 +71,9 @@
 .conhecer{
     background-image:linear-gradient(-45deg, rgb(0, 64, 192), rgb(0, 111, 190));
 }
-/*Carrossel*/
-.carroBotao{
-    background-image:linear-gradient(-45deg, rgb(1, 48, 139), rgb(27, 137, 217));
-    width:5rem;
-    height:5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    box-shadow: 7px 7px 10px rgba(0,0,0,30%);
-    transition: 200ms ease-in-out;
-}
-.carroBotao:hover{
-    cursor: pointer;
-    opacity: 0.90;
-    transform: scale(1.05);
-}
-#carro{
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-    border-radius: 1.5vw; 
-    width: 100%;  
-    box-shadow: 7px 7px 10px rgba(0,0,0,30%);
-}
-.itensCarro{
-    display: flex;
-    transition: 800ms ease-in-out;
-    width: 200%;
-}
-.itensCarro2{
-    display: flex;
-    transition: 800ms ease-in-out;
-    width: 200%;
-    position: relative;
-}
-.itemCarro{
-    width: 100%;
-    position: relative;
-}
-.itemCarro > img{
-    width:100%;
+/*jogo*/
+.jogo{
+    border-radius: 2vw;
 }
 #jogarDF{
     position: absolute;
@@ -123,15 +84,6 @@
     padding-left: 7%;
     padding-right: 7%;
 
-}
-#jogarRG{
-    position: absolute;
-    bottom: 10%;
-    left: calc(43% - 20px);
-    font-size: 1rem;
-    padding: 1%;
-    padding-left: 7%;
-    padding-right: 7%;
 }
 /*Botão Jogar*/
 .jogar{

@@ -4,7 +4,6 @@ import coqueiro from '../img/coqueiro.png';
 import ave from '../img/ave.gif';
 import tresLixeiras from '../img/header2.png';
 import tartaruga from '../img/tartaruga.png';
-import RG from '../img/RGba.png';
 import DF from '../img/DFba.png';
 import coco from '../img/coco.png';
 import bola from '../img/bola.png';
@@ -43,41 +42,6 @@ function Home (){
     });
     //*/
 
-    //Carrossel
-    let index = 0;
-    let tamanho;
-    let translaterX;
-    var intervalo;
-
-    function carrossel (){
-        index++;
-        if (tamanho === 50)
-        {
-            index=0;
-        }
-        tamanho = 50 * index;
-        translaterX = "translate("+tamanho+"%,"+0+"px)"
-        console.log(translaterX)
-    }
-
-    function left (){
-        clearInterval(intervalo);
-        index = 0;
-        tamanho = 50 * index;
-
-        intervalo = setInterval(carrossel, 4000);
-    }
-
-    function right (){
-        clearInterval(intervalo);
-        index = 1;
-        tamanho = 50 * index;
-        intervalo = setInterval(carrossel, 4000);
-    }
-
-    intervalo = setInterval(carrossel, 3500);
-    //
-
     return(
         <>
             <header className="container-fluid">
@@ -109,8 +73,7 @@ function Home (){
                 <div className="row mt-4 d-sm-flex justify-content-center d-none">
                     <nav className="col-11 col-md-9 col-lg-7 d-flex justify-content-around">
                         <a href="/" className="a"><p id="anavPri">Home</p></a>
-                        <a href="/recycle-garbage" className="a"><p id="anavSec" className="hover1">Recycle Garbage</p></a>
-                        <a href="/divert-fish" className="a"><p id="anavSec" className="hover1">Divert Fish</p></a>
+                        <a href="/jogo/jogo.html" className="a"><p id="anavSec" className="hover1">Divert Fish</p></a>
                         <a href="/lixos" className="a"><p id="anavSec" className="hover1">Lixos</p></a>
                         <a href="/clean-beach" className="a"><p id="anavSec" className="hover1">Clean Beach</p></a>
                         <a href="/feedback" className="a me-4"><p id="anavSec" className="hover1">Feedback</p></a>
@@ -130,26 +93,14 @@ function Home (){
             </div>
             
             <div className="container mt-4 d-block d-sm-none">
-                <div className="row mx-1 d-flex justify-content-center">
-                    <div className="col-12">
-                        <div id="carro">
-                            <div className="itensCarro" style={{transform: translaterX}}>
-                                <div className="itemCarro">
-                                    <a id="jogarDF" className="jogar" href="jogos.html">
-                                        Jogar
-                                    </a>    
-                                    <img src={DF} alt="banner do Recycle Garbage"/>
-                                </div>
-                                <div className="itemCarro">
-                                    <a id="jogarRG" className="jogar" href="jogos.html">
-                                        Jogar
-                                    </a>    
-                                    <img src={RG} alt="banner do Divert Fish"/>
-                                </div>
-                            </div>
+                <div className="row justify-content-center py-4 py-lg-5 px-4">
+                        <div className="col-12 position-relative">
+                            <a id="jogarDF" className="jogar" href="jogos.html">
+                                Jogar
+                            </a>    
+                            <img src={DF} alt="banner do Recycle Garbage" className="jogo w-100"/>
                         </div>
-                    </div>         
-                </div>
+                    </div>
             </div>
             
             <main className="container-fluid position-relative">
@@ -208,33 +159,11 @@ function Home (){
             <section id="jogos" className="d-sm-block mt-3 pb-5 pb-sm-0">
                 <div className="container-fluid pt-0 pt-sm-5 pb-5 pb-sm-5">
                     <div className="row justify-content-center py-4 py-lg-5 d-none d-sm-flex">
-                        <div className="col-2 d-flex justify-content-center align-items-center px-0">
-                            <div className="carroBotao" id="carroLeft" onClick={left()}>
-                                <i className="bi bi-arrow-bar-left text-white fs-4"></i>         
-                            </div>              
-                        </div>
-                        <div className="col-8">
-                            <div id="carro">
-                                <div className="itensCarro2" style={{transform: translaterX}}>
-                                    <div className="itemCarro">
-                                        <a id="jogarDF" className="jogar" href="jogos.html">
-                                            Jogar
-                                        </a>    
-                                        <img src={DF} alt="banner do Recycle Garbage"/>
-                                    </div>
-                                    <div className="itemCarro">
-                                        <a id="jogarRG" className="jogar" href="jogos.html">
-                                            Jogar
-                                        </a>    
-                                        <img src={RG} alt="banner do Divert Fish"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-                        <div className="col-2 d-flex justify-content-center align-items-center px-0">
-                            <div className="carroBotao" id="carroRight" onClick={right()}>
-                                <i className="bi bi-arrow-bar-right text-white fs-4"></i>         
-                            </div>              
+                        <div className="col-12 col-sm-11 col-md-8 position-relative">
+                            <a id="jogarDF" className="jogar" href="jogos.html">
+                                Jogar
+                            </a>    
+                            <img src={DF} alt="banner do Recycle Garbage" className="jogo w-100"/>
                         </div>
                     </div>
                     <div className="row d-flex justify-content-center">
@@ -242,7 +171,7 @@ function Home (){
                             <div id="tcc" className="bg1 pb-5 raio">
                                 <h2 className="text-center font1 py-4 pb-3"><u><b>Clean Beach</b></u></h2>
                                 <p className="text-justify px-4 pb-4 font2">
-                                    &ThickSpace;&ThickSpace;Olá, nossos nomes são Felipe e Airon, e este site faz parte do nosso  projeto
+                                    Olá, nossos nomes são Felipe e Airon, e este site faz parte do nosso  projeto
                                     de conclusão de curso, onde o objetivo do projeto é conscientizar as crianças
                                     a não poluírem as praias, para que assim, tenhamos um ambiente mais saudável
                                     e agradável.

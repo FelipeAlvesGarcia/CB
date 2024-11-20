@@ -39,20 +39,19 @@ function CB (){
                 </div>
             </header>
             
-            <div class="container-fluid">
-                <div class="row mt-4 d-sm-flex justify-content-center d-none">
-                    <nav class="col-11 col-md-9 col-lg-7 d-flex justify-content-around">
-                        <a href="/" class="a"><p id="anavSec" class="hover1">Home</p></a>
-                        <a href="/recycle-garbage" class="a"><p id="anavSec" class="hover1">Recycle Garbage</p></a>
-                        <a href="/divert-fish" class="a"><p id="anavSec" class="hover1">Divert Fish</p></a>
-                        <a href="/lixos" class="a"><p id="anavSec" class="hover1">Lixos</p></a>
-                        <a href="/clean-beach" class="a"><p id="anavPri">Clean Beach</p></a>
-                        <a href="/feedback" class="a me-4"><p id="anavSec" class="hover1">Feedback</p></a>
-                        <hr class="hrNav"/>
+            <div className="container-fluid">
+                <div className="row mt-4 d-sm-flex justify-content-center d-none">
+                    <nav className="col-11 col-md-9 col-lg-7 d-flex justify-content-around">
+                        <a href="/" className="a"><p id="anavSec" className="hover1">Home</p></a>
+                        <a href="/divert-fish" className="a"><p id="anavSec" className="hover1">Divert Fish</p></a>
+                        <a href="/lixos" className="a"><p id="anavSec" className="hover1">Lixos</p></a>
+                        <a href="/clean-beach" className="a"><p id="anavPri">Clean Beach</p></a>
+                        <a href="/feedback" className="a me-4"><p id="anavSec" className="hover1">Feedback</p></a>
+                        <hr className="hrNav"/>
                     </nav>
                 </div>
             </div>
-            <div id="nav2" class="d-block d-sm-none">
+            <div id="nav2" className="d-block d-sm-none">
                 <hr id="selecionadoCB"/>
                 <a href="/clean-beach"><img src={cbImg} alt="Clean Beach (Explicações)" id="fcb"/></a>
                 <a href="/feedback"><img src={feedbackImg} alt="Feedback" id="fco" className="aNav2"/></a>
@@ -63,93 +62,81 @@ function CB (){
                 <img src={elipse2} id="eli2" alt="detalhe da nav"/>
             </div>
             
-            <div class="container-fluid mb-5 pb-5 pb-sm-0">
-                <div class="row d-none">
-                    <div id="conhecer" class="col-12">
+            <div className="container-fluid mb-5 pb-5 pb-sm-0">
+                <div className="row d-none">
+                    <div id="conhecer" className="col-12">
                         <p>Conheça Nosso TCC</p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-12">
-                        <div class="row py-5">
-                            <div class="col-12 col-sm-10 col-md-8 col-lg-6 px-0">
-                                <div id="bgTitulo" class="ps-0 ps-sm-5">
-                                    <h2 id="titulo" class="px-4 px-sm-5">O que é?</h2>    
+                <div className="row d-flex justify-content-center">
+                    <div className="col-12">
+                        <div className="row py-5">
+                            <div className="col-12 col-sm-10 col-md-8 col-lg-6 px-0">
+                                <div id="bgTitulo" className="ps-0">
+                                    <h2 id="titulo" className="px-4 px-sm-5">O que Clean Beach?</h2>    
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-11 col-lg-10 px-3">
+                    <div className="col-12 col-md-11 col-lg-10 px-3">
                         <p id="texto">
-                            Um dos animais que foram estudados, tinha no seu corpo 742 resíduos 
-                            de lixo, em que boa parte desse lixo era plástico.Um dos animais que 
-                            foram estudados, tinha no seu corpo 742 resíduos de lixo, em que boa 
-                            parte desse lixo era plástico.Um dos animais que foram estudados, tinha 
-                            no seu corpo 742 resíduos de lixo, em que boa parte desse lixo era 
-                            plástico.Um dos animais que foram estudados, tinha no seu corpo 742 
-                            resíduos de lixo, em que boa parte desse lixo era plástico.Um dos animais 
-                            que foram estudados, tinha no seu corpo 742 resíduos de lixo, em que 
-                            boa parte desse lixo era plástico.Um dos animais que foram estudados, 
-                            tinha no seu corpo 742 resíduos de lixo, em que boa parte desse lixo 
-                            era plástico.
+                            Clean Beach é um trabalho de conclusão de curso (TCC) composto pelos integrantes
+                            Airon Lazzaretti e Felipe Alves Garcia, ambos estudantes estão no
+                            terceiro ano da Escola Técnica Estadual Monteiro Lobato (CIMOL). O tema 
+                            do TCC é descobrir se existe uma possível solução ou um possível amenizador
+                            para os problemas de lixos no ambiente litorâneo. O objeto do trabalho é o desenvolvimento
+                            de um site educacional e inteativo que terá diversas ferramentas de ensino.
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-12">
-                        <div class="row py-5">
-                            <div class="col-12 col-sm-10 col-md-8 col-lg-6 px-0">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-12">
+                        <div className="row py-5">
+                            <div className="col-12 col-sm-10 col-md-8 col-lg-6 px-0">
                                 <div id="bgTitulo">
-                                    <h2 id="titulo" class="px-4 px-sm-5">Qual é a finalidade?</h2>    
+                                    <h2 id="titulo" className="px-4 px-sm-5">Qual é a finalidade?</h2>    
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-11 col-lg-10 px-3">
+                    <div className="col-12 col-md-11 col-lg-10 px-3">
                         <p id="texto">
-                            Um dos animais que foram estudados, tinha no seu corpo 742 resíduos 
-                            de lixo, em que boa parte desse lixo era plástico.Um dos animais que 
-                            foram estudados, tinha no seu corpo 742 resíduos de lixo, em que boa 
-                            parte desse lixo era plástico.Um dos animais que foram estudados, tinha 
-                            no seu corpo 742 resíduos de lixo, em que boa parte desse lixo era 
-                            plástico.Um dos animais que foram estudados, tinha no seu corpo 742 
-                            resíduos de lixo, em que boa parte desse lixo era plástico.Um dos animais 
-                            que foram estudados, tinha no seu corpo 742 resíduos de lixo, em que 
-                            boa parte desse lixo era plástico.Um dos animais que foram estudados, 
-                            tinha no seu corpo 742 resíduos de lixo, em que boa parte desse lixo 
-                            era plástico.
+                            O site tem objetivo de trazer aos usuários informações educativas sobre a poluição, como,
+                            por exemplo, curiosidades de impactos negativos da poluição na praia, que podem 
+                            manter os usuários informados sobre os problemas da poluição. O foco do site é no ambiente litorâneo, 
+                            englobando a vida marítima e os ambientes de lazer. O site não possui nenhuma restrinção de público, 
+                            mas o tema dele é destinado ao publíco infantil. O site possui varias ferramentas de ensino, como 
+                            textos, imagens, GIFs, jogo etc. A sua principal ferramenta de ensino é o jogo, pois ao mesmo 
+                            tempo que traz ensinamentos, ele traz entretedimento aos usuários.
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-12">
-                        <div class="row py-5">
-                            <div class="col-12 col-sm-10 col-md-8 col-lg-6 px-0">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-12">
+                        <div className="row py-5">
+                            <div className="col-12 col-sm-10 col-md-8 col-lg-6 px-0">
                                 <div id="bgTitulo">
-                                    <h2 id="titulo" class="px-4 px-sm-5">Como funciona o site?</h2>    
+                                    <h2 id="titulo" className="px-4 px-sm-5">Como funciona o jogo?</h2>    
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-11 col-lg-10 px-3">
+                    <div className="col-12 col-md-11 col-lg-10 px-3">
                         <p id="texto">
-                            Um dos animais que foram estudados, tinha no seu corpo 742 resíduos 
-                            de lixo, em que boa parte desse lixo era plástico.Um dos animais que 
-                            foram estudados, tinha no seu corpo 742 resíduos de lixo, em que boa 
-                            parte desse lixo era plástico.Um dos animais que foram estudados, tinha 
-                            no seu corpo 742 resíduos de lixo, em que boa parte desse lixo era 
-                            plástico.Um dos animais que foram estudados, tinha no seu corpo 742 
-                            resíduos de lixo, em que boa parte desse lixo era plástico.Um dos animais 
-                            que foram estudados, tinha no seu corpo 742 resíduos de lixo, em que 
-                            boa parte desse lixo era plástico.Um dos animais que foram estudados, 
-                            tinha no seu corpo 742 resíduos de lixo, em que boa parte desse lixo 
-                            era plástico.
+                            O jogo pode ser jogado pelo celular ou no teclado, sendo que no celular o jogador 
+                            faz o uso de um joystick e botões, e no teclado o jogador joga através de teclas. O 
+                            cenário do jogo retrata a vida de um peixe, na corrente marítima, em um cenário 2D que 
+                            segue seu fluxo de movimento, entretanto ele necessita da habilidade de desviar de lixos, 
+                            de origem praiana,  e petróleo que estão na frente de seu caminho, dificultando seu percurso 
+                            e liberdade. Para conseguir alcançar essa habilidade, o peixe precisa de muita agilidade de 
+                            movimento e raciocínio rápido. O jogador do jogo controla o peixe e seu objetivo principal é ir 
+                            o mais longe possível, tendo, como auxílio, bolhas mágicas limitadas ao uso.
                         </p>
                     </div>
                 </div>
-                <div class="row mt-4 pb-5 pb-sm-0">
-                    <div class="col-12 d-flex justify-content-center">
-                        <a class="a raio bg1 py-3 px-5 hover1" id="pdf" href="https://drive.google.com/uc?export=download&id=1VRG6_wf4EYs6W-iVZQJGLzQ9hDLBsla7">
+                <div className="row mt-4 pb-5 pb-sm-0">
+                    <div className="col-12 d-flex justify-content-center">
+                        <a className="a raio bg1 py-3 px-5 hover1" id="pdf" href="https://drive.google.com/uc?export=download&id=1VRG6_wf4EYs6W-iVZQJGLzQ9hDLBsla7">
                             <p>Click aqui e veja nosso PDF</p>
                         </a>
                     </div>

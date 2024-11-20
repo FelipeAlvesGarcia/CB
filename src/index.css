@@ -91,11 +91,13 @@ nav{
   position:relative;
   animation: anav 1s ease-out;
   z-index: 500;
+  font-size:1.25rem;
 }
 #anavSec{
   font-family: K2D;
   color:white;
   margin: 0;    
+  font-size: 1.25rem;
 }
 #anavPri{
   padding-right:1.25rem;
