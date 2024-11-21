@@ -63,6 +63,9 @@
     border:none;
     transition: 200ms ease-in-out;
     opacity: 0.8;
+    font-family: K2D;
+    color:white;
+    font-size:1.3rem;
 }
 #mandar > p{
     font-family: K2D;

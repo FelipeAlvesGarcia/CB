@@ -49,13 +49,13 @@ function Home (){
                     <div className="col-8 d-flex align-items-center">
                         <a href="/clean-beach" className="ms-3 a hover1 mt-1"><h1 id="cleanBeach">Clean Beach</h1></a>
                     </div>
-                    <div className="col-4 d-none d-sm-flex justify-content-end pe-4">
+                    <div className="col-4 d-none d-sm-none justify-content-end pe-4">
                         <div>
                             <div id="loginCadastro" className="d-inline-block py-2 mt-2">
                                 <a href="/login" id="login" className="a m-0 p-3 px-4 hover1">
                                     Login
                                 </a>
-                                <a href="cadastro.html" id="cadastro" className="a m-0 p-3 px-4 hover1">
+                                <a href="/cadastro" id="cadastro" className="a m-0 p-3 px-4 hover1">
                                     Cadastrar
                                 </a>        
                             </div>
@@ -86,7 +86,7 @@ function Home (){
                 <a href="/clean-beach"><img src={cbImg} alt="Clean Beach (Explicações)" id="fcb" className="aNav2"/></a>
                 <a href="/feedback"><img src={feedbackImg} alt="Feedback" id="fco" className="aNav2"/></a>
                 <a href="/"><img src={homeImg} alt="Home (Início)" id="fho"/></a>
-                <a href="/jogos"><img src={jogosImg} alt="Jogos" id="fjo" className="aNav2"/></a>
+                <a href="https://divert-fish.vercel.app"><img src={jogosImg} alt="Jogos" id="fjo" className="aNav2"/></a>
                 <a href="/lixos"><img src={lixosImg} alt="Lixos (Curiosidades e Conscientização)" id="fli" className="aNav2"/></a>
                 <img src={elipse1} id="eli1" alt="nav"/>
                 <img src={elipse2} id="eli2" alt="detalhe da nav"/>
@@ -124,12 +124,12 @@ function Home (){
                                         </a>
                                     </div>
                                 </div>
-                                <div className="d-flex d-sm-none  justify-content-center m-4">
+                                <div className="d-none d-sm-none  justify-content-center m-4">
                                     <div id="loginCadastro" className="d-inline-block py-2 mt-2">
-                                        <a href="login.html" id="login" className="a m-0 p-3 px-4 hover1">
+                                        <a href="/login" id="login" className="a m-0 p-3 px-4 hover1">
                                             Login
                                         </a>
-                                        <a href="cadastro.html" id="cadastro" className="a m-0 p-3 px-4 hover1">
+                                        <a href="/cadastro" id="cadastro" className="a m-0 p-3 px-4 hover1">
                                             Cadastrar
                                         </a>        
                                     </div>

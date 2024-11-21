@@ -6,6 +6,7 @@ import Feedback from './components/Feedback.js';
 import CB from './components/CB.js';
 import Lixos from './components/Lixos.js';
 import Login from './components/Login.js';
+import Cadastro from './components/Cadastro.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/lixos" element={<Lixos />} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/cadastro" element={<Cadastro/>} />
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
