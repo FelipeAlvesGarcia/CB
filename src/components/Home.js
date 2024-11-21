@@ -47,12 +47,12 @@ function Home (){
             <header className="container-fluid">
                 <div className="row align-items-center d-flex py-3">
                     <div className="col-8 d-flex align-items-center">
-                        <a href="index.html" className="ms-3 a hover1 mt-1"><h1 id="cleanBeach">Clean Beach</h1></a>
+                        <a href="/clean-beach" className="ms-3 a hover1 mt-1"><h1 id="cleanBeach">Clean Beach</h1></a>
                     </div>
                     <div className="col-4 d-none d-sm-flex justify-content-end pe-4">
                         <div>
                             <div id="loginCadastro" className="d-inline-block py-2 mt-2">
-                                <a href="login.html" id="login" className="a m-0 p-3 px-4 hover1">
+                                <a href="/login" id="login" className="a m-0 p-3 px-4 hover1">
                                     Login
                                 </a>
                                 <a href="cadastro.html" id="cadastro" className="a m-0 p-3 px-4 hover1">
@@ -73,7 +73,7 @@ function Home (){
                 <div className="row mt-4 d-sm-flex justify-content-center d-none">
                     <nav className="col-11 col-md-9 col-lg-7 d-flex justify-content-around">
                         <a href="/" className="a"><p id="anavPri">Home</p></a>
-                        <a href="/jogo/jogo.html" className="a"><p id="anavSec" className="hover1">Divert Fish</p></a>
+                        <a href="https://divert-fish.vercel.app" className="a"><p id="anavSec" className="hover1">Divert Fish</p></a>
                         <a href="/lixos" className="a"><p id="anavSec" className="hover1">Lixos</p></a>
                         <a href="/clean-beach" className="a"><p id="anavSec" className="hover1">Clean Beach</p></a>
                         <a href="/feedback" className="a me-4"><p id="anavSec" className="hover1">Feedback</p></a>
@@ -95,7 +95,7 @@ function Home (){
             <div className="container mt-4 d-block d-sm-none">
                 <div className="row justify-content-center py-4 py-lg-5 px-4">
                         <div className="col-12 position-relative">
-                            <a id="jogarDF" className="jogar" href="jogos.html">
+                            <a id="jogarDF" className="jogar" href="https://divert-fish.vercel.app/">
                                 Jogar
                             </a>    
                             <img src={DF} alt="banner do Recycle Garbage" className="jogo w-100"/>
@@ -147,7 +147,7 @@ function Home (){
                                 e agradável.
                             </p>
                             <p className="text-center my-4 font2">
-                                <a href="CB.html" className="raio text-center p-3 text-white a px-4 hover1 conhecer">
+                                <a href="/clean-beach" className="raio text-center p-3 text-white a px-4 hover1 conhecer">
                                     <b>Conheça o nosso TCC</b>
                                 </a>
                             </p>
@@ -160,7 +160,7 @@ function Home (){
                 <div className="container-fluid pt-0 pt-sm-5 pb-5 pb-sm-5">
                     <div className="row justify-content-center py-4 py-lg-5 d-none d-sm-flex">
                         <div className="col-12 col-sm-11 col-md-8 position-relative">
-                            <a id="jogarDF" className="jogar" href="jogos.html">
+                            <a id="jogarDF" className="jogar" href="https://divert-fish.vercel.app/">
                                 Jogar
                             </a>    
                             <img src={DF} alt="banner do Recycle Garbage" className="jogo w-100"/>
@@ -177,7 +177,7 @@ function Home (){
                                     e agradável.
                                 </p>
                                 <p className="text-center my-4 font2">
-                                    <a href="CB.html" className="raio text-center p-3 text-white a px-4 hover1 conhecer">
+                                    <a href="/clean-beach" className="raio text-center p-3 text-white a px-4 hover1 conhecer">
                                         <b>Conheça o nosso TCC</b>
                                     </a>
                                 </p>

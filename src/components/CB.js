@@ -136,7 +136,7 @@ function CB (){
                 </div>
                 <div className="row mt-4 pb-5 pb-sm-0">
                     <div className="col-12 d-flex justify-content-center">
-                        <a className="a raio bg1 py-3 px-5 hover1" id="pdf" href="https://drive.google.com/uc?export=download&id=1VRG6_wf4EYs6W-iVZQJGLzQ9hDLBsla7">
+                        <a className="a raio bg1 py-3 px-5 hover1" id="pdf" href="https://drive.usercontent.google.com/u/0/uc?id=1z2JHLV5rZ3ms-Kk8_02d72Z0cILphtem&export=download">
                             <p>Click aqui e veja nosso PDF</p>
                         </a>
                     </div>
